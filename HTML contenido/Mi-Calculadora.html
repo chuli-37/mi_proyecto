@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi calculadora</title>
+    <link rel="shortcut icon" href="../RECURSOS contenido/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../CSS contenido/Estilo-Calculadora.css">
+</head>
+<body>
+    <header>
+        <h1>˗ˏˋ Mi calculadora ´ˎ˗</h1>
+    </header>
+    <main>
+        <div id="calculadora">
+            <form name="contenido">
+                <input id="barra"type="textfield" name="barra" value="" autocomplete="off" readonly>
+
+                <input type="button" value="7" onclick="document.contenido.barra.value+='7'">
+                <input type="button" value="8" onclick="document.contenido.barra.value+='8'">
+                <input type="button" value="9" onclick="document.contenido.barra.value+='9'">
+                <input type="button" value="+" onclick="document.contenido.barra.value+='+'">
+                <br>
+                <input type="button" value="4" onclick="document.contenido.barra.value+='4'">
+                <input type="button" value="5" onclick="document.contenido.barra.value+='5'">
+                <input type="button" value="6" onclick="document.contenido.barra.value+='6'">
+                <input type="button" value="-" onclick="document.contenido.barra.value+='-'">
+                <br>
+                <input type="button" value="1" onclick="document.contenido.barra.value+='1'">
+                <input type="button" value="2" onclick="document.contenido.barra.value+='2'">
+                <input type="button" value="3" onclick="document.contenido.barra.value+='3'">
+                <input type="button" value="×" onclick="document.contenido.barra.value+='*'">
+                <br>
+                <input type="button" value="0" onclick="document.contenido.barra.value+='0'">
+                <input type="reset" value="C">
+                <input type="button" value="=" onclick="document.contenido.barra.value=eval(document.contenido.barra.value)">
+                <input type="button" value="÷" onclick="document.contenido.barra.value+='/'">
+
+
+            </form>
+        </div>
+    </main>
+
+</body>
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../RECURSOS contenido/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../CSS contenido/Proyecto-Calculadora.css">
+
+    <title>Mi calculadora</title>
+</head>
+<body>
+    <script src="../JAVASCRIPT/Proyecto.js"></script>
+    <h1>Calculadora Online</h1>
+    <main id="calculadora">
+        <div id="consola"></div>
+        <div class="botones">
+            <div class="numero" id="9" onclick="seleccionarNumero(this.id)">9</div>
+            <div class="numero" id="8" onclick="seleccionarNumero(this.id)">8</div>
+            <div class="numero" id="7" onclick="seleccionarNumero(this.id)">7</div>
+            <div class="operador" id="+" onclick="seleccionarNumero(this.id)">+</div>
+        </div>
+        <div class="botones">
+            <div class="numero" id="6" onclick="seleccionarNumero(this.id)">6</div>
+            <div class="numero" id="5" onclick="seleccionarNumero(this.id)">5</div>
+            <div class="numero" id="4" onclick="seleccionarNumero(this.id)">4</div>
+            <div class="operador" id="-" onclick="seleccionarNumero(this.id)">-</div>
+        </div>
+        <div class="botones">
+            <div class="numero" id="3" onclick="seleccionarNumero(this.id)">3</div>
+            <div class="numero" id="2" onclick="seleccionarNumero(this.id)">2</div>
+            <div class="numero" id="1" onclick="seleccionarNumero(this.id)">1</div>
+            <div class="operador" id="/" onclick="seleccionarNumero(this.id)">/</div>
+        </div>
+        <div class="botones">
+            <div class="numero" id="0" onclick="seleccionarNumero(this.id)">0</div>
+            <div class="coma" id="," onclick="seleccionarNumero(this.id)">,</div>
+            <div class="operador" onclick="operacion(this.id)">=</div>
+            <div class="operador" id="*" onclick="seleccionarNumero(this.id)">*</div>
+        </div>
+    </main>
+</body>
+</html>
